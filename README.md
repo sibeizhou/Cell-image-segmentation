@@ -122,10 +122,3 @@ The best reported experiment uses random augmentation plus histogram equalizatio
 ![Epoch loss comparison](docs/images/epoch-loss-comparison.png)
 
 See [report.pdf](report.pdf) for full experiment details.
-
-## Possible Improvements
-
-- Move training parameters into `argparse` or a YAML config file for easier reproducibility.
-- Add segmentation metrics such as Dice score and IoU, instead of relying only on pixel accuracy.
-- Add a fixed random seed and a standalone evaluation script.
-- Fix the mismatch in `run.sh`, where the script creates `new_env` but activates `env`.
