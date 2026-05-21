@@ -2,7 +2,8 @@
 
 A PyTorch-based semantic segmentation project for grayscale microscopy cell images. The project implements a U-Net model for foreground/background segmentation and includes data loading, preprocessing, augmentation, training, experiment reports, and selected result figures extracted from the report.
 
-| <img src="docs/images/qualitative-results.png" width="320" alt="Person detection result"> | <img src="docs/images/qualitative-results2.png" width="320" alt="Cat detection result"> |
+| <img src="docs/images/qualitative-results.png" width="320" alt="Person detection result"> | <img src="docs/images/qualitative-results2.jpg" width="320" alt="Cat detection result"> |
+| --- | --- |
 
 ## Highlights
 
